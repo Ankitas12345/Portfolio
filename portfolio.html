@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankita Shelar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #fff;
+      padding: 10px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #004d99;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: #777;
+      font-size: 1.1rem;
+    }
+
+    .description {
+      max-width: 700px;
+      margin: 10px auto 30px;
+      font-size: 1rem;
+    }
+
+    .about-text {
+      text-align: left;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .skill {
+      margin: 15px 0;
+    }
+
+    .bar {
+      background: #ddd;
+      height: 8px;
+      border-radius: 5px;
+    }
+
+    .fill {
+      background: #0077cc;
+      height: 8px;
+      border-radius: 5px;
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background: #e3f2fd;
+      padding: 40px 20px;
+    }
+
+    .stat-box {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #0077cc;
+      margin: 10px;
+    }
+
+    .stat-box span {
+      display: block;
+      font-size: 1rem;
+      color: #444;
+      font-weight: normal;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #d7f5fc;
+      padding: 20px;
+      border-radius: 10px;
+      color: #0077cc;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .contact-section {
+      background: #fce4ec;
+      padding: 60px 20px;
+    }
+
+    .contact-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .contact-info {
+      max-width: 300px;
+    }
+
+    form {
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #0077cc;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #005fa3;
+    }
+
+    footer {
+      background: #e0f2f1;
+      text-align: center;
+      padding: 30px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <div class="hero">
+      <h1>ANKITA SHELAR</h1>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>ABOUT ME</h2>
+    <p class="subtitle">MCA Data Science Student</p>
+    <p class="description">I’m Ankita Shelar, an MCA student with a growing interest in Data Engineering. Though I’m at the beginning of my journey, I am eager to learn how to build data pipelines, manage large datasets, and use tools like SQL and cloud platforms. I'm focusing on building a strong foundation to prepare for real-world challenges in the data industry.
+
+</p>
+    <div class="about-text">
+      <div class="skill"><p>HTML, CSS, JavaScript</p><div class="bar"><div class="fill" style="width: 90%;"></div></div></div>
+      <div class="skill"><p>Python & Data Science</p><div class="bar"><div class="fill" style="width: 85%;"></div></div></div>
+      <div class="skill"><p>SQL & Power BI</p><div class="bar"><div class="fill" style="width: 80%;"></div></div></div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-box">10+<br><span>Mini Projects</span></div>
+    <div class="stat-box">5+<br><span>Hackathons</span></div>
+    <div class="stat-box">100+<br><span>Lab Sessions</span></div>
+    <div class="stat-box">25+<br><span>Courses Completed</span></div>
+  </section>
+
+  <section id="portfolio">
+    <h2>PORTFOLIO</h2>
+    <p class="subtitle">My Work</p>
+    <p class="description">Here are some of my academic and personal projects related to data science and web development.</p>
+    <div class="gallery">
+      <div class="project-card">Project 1</div>
+      <div class="project-card">Project 2</div>
+      <div class="project-card">Project 3</div>
+      <div class="project-card">Project 4</div>
+      <div class="project-card">Project 5</div>
+      <div class="project-card">Project 6</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>CONTACT</h2>
+   
+    <div class="contact-content">
+      <div class="contact-info">
+        <p><strong>📍 Pune, India</strong></p>
+        <p>📞 Phone: +91 9876543210</p>
+        <p>✉️ Email: ankita@email.com</p>
+      </div>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+
+ <footer>
+  <div class="footer-container">
+    <p>Connect with me:</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank">🔗 LinkedIn</a>
+      <a href="https://twitter.com/yourusername" target="_blank">🐦 Twitter</a>
+      <a href="https://www.instagram.com/yourusername" target="_blank">📸 Instagram</a>
+    </div>
+    <p>&copy; 2025 Ankita Shelar. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+    
